@@ -1,0 +1,72 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.text-container {
+  width: 50%;
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.home-heading {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 45px;
+  color: #1e293b;
+}
+.des {
+  color: #64748b;
+  margin-top: none;
+}
+.shop-button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #0967d2;
+  color: white;
+  border-radius: 10px;
+  font-family: roboto;
+  border-width: 0px;
+}
+.home-img {
+  width: 50%;
+  max-width: 500px;
+  max-height: 500px;
+  height: 50%;
+  align-self: center;
+}
+.home-ig {
+  display: none;
+}
+@media (max-width: 767px) {
+  .home-ig {
+    display: block;
+    width: 50%;
+    height: 50%;
+  }
+  .home-img {
+    display: none;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home-heading {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 30px;
+  color: #1e293b;
+}
+}

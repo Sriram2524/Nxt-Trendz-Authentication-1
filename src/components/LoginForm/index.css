@@ -1,0 +1,113 @@
+/* Write your CSS code here */
+.login-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  border-radius: 7px;
+}
+.login-img {
+  width: 50%;
+  margin-left: 20px;
+}
+.formm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  margin-right: 40px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 50%;
+  border-radius: 10px;
+  max-width: 350px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.login-logo {
+  width: 100%;
+  max-width: 200px;
+  align-self: center;
+}
+.input-con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.input {
+  font-size: 14px;
+  background-color: #d7dfe9;
+  color: #64748b;
+  border: 2px solid #e2e8f0;
+  border-radius: 5px;
+  height: 40px;
+  padding-left: 10px;
+}
+.label {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 13px;
+}
+.login-button {
+  width: 100%;
+  background-color: #0b69ff;
+  color: white;
+  font-family: roboto;
+  border-radius: 6px;
+  border-width: none;
+  outline: none;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+.login-ig {
+  display: none;
+}
+.err-msg {
+  color: #ff0b37;
+}
+@media (max-width: 767px) {
+  .login-img {
+    display: none;
+    margin-top: 20px;margin-bottom: 10px;
+  }
+  .login-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .login-ig {
+    display: block;
+    width: 70%;
+    max-width: 300px;
+    align-self: center;
+  }
+  .formm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    margin-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 400px;
+  }
+  .input {
+    font-size: 14px;
+    background-color: #d7dfe9;
+    color: #64748b;
+    border: 2px solid #e2e8f0;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+  }
+}

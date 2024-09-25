@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.navbar {
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+.logo {
+  width: 150px;
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 25px;
+}
+.ul-ordered-nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.home-name {
+  display: flex;
+  padding-right: 10px;
+}
+.logout-button {
+  padding: 10px;
+  text-align: center;
+  background-color: #0967d2;
+  color: white;
+  border-radius: 5px;
+  border-width: 0px;
+}
